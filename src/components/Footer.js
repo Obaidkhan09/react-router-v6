@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import { makeStyles } from '@material-ui/core/styles';
+import CopyrightIcon from '@mui/icons-material/Copyright';
 
 import './styling/Footer.css';
 
@@ -31,7 +30,13 @@ export default function Footer() {
 
             </Grid>
             </div>
-            <div>copy right</div>
+            <div>
+                <Grid container>
+                    <Grid item xs={12} className='copyR'>
+                        <CopyrightIcon/>Copy Right By Shoe Store.
+                    </Grid>
+                </Grid>
+            </div>
         </div>
     );
 }
