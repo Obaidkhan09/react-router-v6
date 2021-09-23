@@ -33,7 +33,7 @@ export default function Footer() {
             <div>
                 <Grid container>
                     <Grid item xs={12} className='copyR'>
-                        <CopyrightIcon/>Copy Right By Shoe Store.
+                        <CopyrightIcon className='copyIcon'></CopyrightIcon>{' '}Copy Right By Shoe Store.
                     </Grid>
                 </Grid>
             </div>

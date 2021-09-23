@@ -14,7 +14,8 @@ li{
 }
 
 ul{
-    padding-top: 7px;
+    padding-top: 17px;
+    padding-top: 10px;
 }
 
 .brand-name{
@@ -26,5 +27,8 @@ ul{
 }
 .copyR{
     text-align: center;
-    align-self: center;
-  }
+    padding: 3px 0px 8px 0px;
+}
+.copyIcon{
+    font-size: 1rem !important;
+}
