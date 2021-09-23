@@ -1,0 +1,26 @@
+.back{
+    background-color: #303f9f !important;
+}
+.ubuntu-fonts{
+    font-family: 'Ubuntu', sans-serif !important;
+    color: white !important;
+    text-align: start !important;
+    font-size: 20px !important;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+ul{
+    padding-top: 7px;
+}
+
+.brand-name{
+    font-family: 'Carattere', cursive !important;
+    font-size: 45px !important;
+    color: white;
+    text-align: center;
+    align-self: center;
+}
