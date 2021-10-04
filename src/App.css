@@ -13,3 +13,23 @@
   color: white !important;
   font-size: 18px !important;
 }
+
+@media screen and (max-width: 630px) {
+  .logoFonts{
+    font-size: 30px !important;
+  }
+  .menu-fonts{
+    font-size: 15px !important;
+    padding-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logoFonts{
+    font-size: 20px !important;
+  }
+  .menu-fonts{
+    font-size: 12px !important;
+    padding-right: 0!important;
+  }
+}

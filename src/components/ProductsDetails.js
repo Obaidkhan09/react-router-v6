@@ -11,36 +11,37 @@ import './styling/ProductsDetails.css'
 export default function ProductsDetails() {
     const inventory = {
         1: {
+            name : 'Brownish Red Loofer',
             text: "This impressive paella is a perfect party Loofer and a Mr. Perfect choice eye cathing color and breath taking comfort, name of Quality, if you like.",
             img: ProductImage1,
         },
         2: {
+            name : 'Dark Black Loofer',
             text: "This impressive paella is a perfect party Loofer and a Mr. Perfect choice eye cathing color and breath taking comfort, name of Quality, if you like.",
             img: ProductImage2,
         },
         3: {
+            name : 'Light Skin Loofer',
             text: "This impressive paella is a perfect party Loofer and a Mr. Perfect choice eye cathing color and breath taking comfort, name of Quality, if you like.",
             img: ProductImage3,
         }
     }
     const { productId } = useParams();
     const id = inventory[productId];
-    const { text, img } = id
+    const { text, img, name } = id
     return (
         <div>
-            <h2>Product Shoe {productId}</h2>
-            <Box pb={10}>
+            <h2>Product Name: {name}</h2>
             <Grid container id='details' justifyContent={'center'}>
-                <Grid item xs={8}>
+                <Grid item xs={10} sm={8} md={6}>
                     <Paper id ='details1'>
-                        <img src={img} alt='' height="500px" width="450px" />
+                        <img src={img} alt='' className='imageDetail'/>
                     <Box pt={3}>
                     <p>{text}</p>
                     </Box>
                     </Paper>
                     </Grid>
             </Grid>
-            </Box>
         </div>
     );
 }

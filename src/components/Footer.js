@@ -10,8 +10,8 @@ export default function Footer() {
             <div className='back'>
                 <Grid container>
 
-                <Grid item xs={4} className='brand-name'>Shoe Store</Grid>
-                <Grid item xs={4} className='ubuntu-fonts'>
+                <Grid item xs={12} sm={4} className='brand-name'>Shoe Store</Grid>
+                <Grid item xs={12} sm={4} className='ubuntu-fonts'>
                     <ul>
                         <li>Home</li>
                         <li>Products</li>
@@ -19,7 +19,7 @@ export default function Footer() {
                         <li>Contact Us</li>
                     </ul>
                 </Grid>
-                <Grid item xs={4} className='ubuntu-fonts'>
+                <Grid item xs={12} sm={4} className='ubuntu-fonts'>
                     <ul>
                         <li>Karachi Pakistan</li>
                         <li>Punjab Colony, Karachi South.</li>

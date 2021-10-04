@@ -5,3 +5,26 @@ h2{
     text-align: center;
     background-color: rgb(241, 241, 241);
 }
+.imageDetail{
+    height: 500px;
+    width: 95%;
+}
+
+@media screen and (max-width: 900px){
+    .imageDetail{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 645px) {
+    .imageDetail{
+        height: 250px;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 440px) {
+    .imageDetail{
+        height: 150px;
+    }
+  }

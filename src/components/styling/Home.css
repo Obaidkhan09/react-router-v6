@@ -30,3 +30,20 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+
+@media screen and (max-width: 645px) {
+  .mainFonts{
+    font-size: 50px !important;
+  }
+  .mainFonts ~ p{
+    font-size: 17px !important;
+  }
+}
+@media screen and (max-width: 385px) {
+  .mainFonts{
+    font-size: 42px !important;
+  }
+  .mainFonts ~ p{
+    font-size: 13px !important;
+  }
+}
