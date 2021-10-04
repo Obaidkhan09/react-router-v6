@@ -12,7 +12,7 @@ function Home() {
         <div className='container'>
             <Box>
                 <Paper elevation ={3} className='fill'>
-                    <img src={cover} />
+                    <img src={cover} alt='' />
                     <div className='centered'>
                         <h1 className='mainFonts'>Shoe Store</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable 

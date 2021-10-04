@@ -1,12 +1,9 @@
 import React from 'react';
+import { Outlet } from 'react-router';
 
 function Products () {
     return(
-        <div>
-            <h4>
-                Products JS file here.
-            </h4>
-        </div>
+        <Outlet />
     );
 }
 
